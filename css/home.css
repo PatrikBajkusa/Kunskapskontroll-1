@@ -3,26 +3,43 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
     'pic1 pic1 pic1 pic1'
+    'h1 h1 h1 h1'
     'box box box box'
     'pic2 pic2 pic2 pic2'
     ;
-    max-width: 960px;
+    /* width: 100%; */
+    margin: 20px;
 }
 
 .pic1 {
+    display: flex;
     grid-area: pic1;
+    /* height: 60%; */
+    object-fit: cover;
+    width: 100%;
+    position: relative;
 }
 
 .box {
     grid-area: box;
     display: flex;
+    justify-content: space-around;
 }
 
 .minibox {
     display: flex;
-    height: 50px;
-    width: 70px;
+    height: 200px;
+    width: 200px;
     border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+#h1 {
+    grid-area: h1;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -44,9 +61,31 @@
 
 
 .pic2 {
+    display: flex;
     grid-area: pic2;
 }
 
 img {
-    max-width: 80%;
+    max-width: 100%;
+    z-index: -1;
 }
+
+i {
+    display: flex;
+    margin: 0 auto;
+    font-size: 60px;
+}
+
+.polarbear {
+    position: absolute;
+    font-size: 70px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* button {
+    position: absolute;
+    font-size: 70px;
+} */

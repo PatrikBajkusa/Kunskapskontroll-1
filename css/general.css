@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+:root {
+    --color-black: #140f07;
+    --color-darkblue: #12254b;
+    --color-blue: #3a5eb5;
+    --color-lightblue: #70a6fe;
+    --color-iceblue: #7dd4ff;
+  }
