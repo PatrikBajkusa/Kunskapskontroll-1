@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    'pic1 pic1 pic1 pic1'
+    'box box box box'
+    'pic2 pic2 pic2 pic2'
+    ;
+    max-width: 960px;
+}
+
+.pic1 {
+    grid-area: pic1;
+}
+
+.box {
+    grid-area: box;
+    display: flex;
+}
+
+.minibox {
+    display: flex;
+    height: 50px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+
+/* .box1 {
+    grid-area: box1;
+}
+
+.box2 {
+    grid-area: box2;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+} */
+
+
+.pic2 {
+    grid-area: pic2;
+}
+
+img {
+    max-width: 80%;
+}
