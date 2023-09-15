@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
     font-family: 'Montserrat', sans-serif;
 }    
 
-
+/* VARIABLES */
 :root {
     --color-black: #140f07;
     --color-darkblue: #12254b;
@@ -16,9 +17,10 @@
     --color-lightblue: #70a6fe;
     --color-iceblue: #7dd4ff;
     --color-white: #fff;
-  }
+}
 
-  header {
+/* HEADER */
+header {
     height: 100px;
     background-color: var(--color-darkblue);
     display: flex;
@@ -80,6 +82,8 @@
     font-size: 50px;
 }
 
+
+/* FOOTER */
 footer {
     position: relative;
     width: 100%;
