@@ -1,0 +1,35 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'pic pic pic'
+    'search search aside'
+    'main main aside'
+    'main main aside'
+    ;
+    /* height: 80%; */
+    margin: 20px;
+}
+
+.pic {
+    grid-area: pic;
+    width: 100%;
+  /*   display: flex;
+    justify-content: center; */
+}
+
+.search {
+    grid-area: search;
+}
+
+.boxar {
+    grid-area: main;
+}
+
+.box1, box2 {
+    grid-area: aside;
+}
+
+img {
+    width: 100%;
+}
