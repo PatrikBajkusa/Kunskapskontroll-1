@@ -15,6 +15,7 @@
     --color-blue: #3a5eb5;
     --color-lightblue: #70a6fe;
     --color-iceblue: #7dd4ff;
+    --color-white: #fff;
   }
 
   header {
@@ -156,13 +157,11 @@ footer .container2 .social li a {
     align-content: center;
     justify-content: center;
     text-decoration: none;
-
 }
 
 footer .container2 .social li a i {
     color: var(--color-iceblue);
-    font-size: 35px;
-    
+    font-size: 35px;   
 }
 
 
@@ -173,5 +172,4 @@ footer .container2 .social li a i {
     padding: auto;
     text-align: center;
     margin-top: -1px;
-
 }
