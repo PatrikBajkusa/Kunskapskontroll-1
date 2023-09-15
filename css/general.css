@@ -156,10 +156,10 @@ footer .container2 .social li {
 
 footer .container2 .social li a {
     display: inline-block;
-    width: 45px;
+    /*width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: var(--color-black);
+    background: var(--color-black);*/
     display: grid;
     margin: auto;
     align-content: center;
