@@ -58,10 +58,14 @@ header {
 
 #nav-bar ul li a:hover{
     color: var(--color-white);
+    font-size: 20px;
 }
 
-.active {
-    color:var(--color-white);
+#active {
+    color: var(--color-white)!important;
+    font-size: 20px;
+    
+    
 }
 
 .nav-link{
@@ -70,11 +74,9 @@ header {
 
 .vanillaice {
     width: 100%;
-    /* padding: 10px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin-top: -9px; */
 }
 
 .vanillaice i {
@@ -88,7 +90,6 @@ footer {
     position: relative;
     width: 100%;
     height: auto;
-    /* padding: auto 100px; */
     background: var(--color-darkblue);
 }
 
@@ -116,7 +117,6 @@ footer .container2 .time {
 
 footer .container2 .time ul li {
     list-style: none;
-    /* font-weight: 600; */
     color: var(--color-white);
 }
 

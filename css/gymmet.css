@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}    
+
+/* VARIABLES */
+:root {
+    --color-black: #140f07;
+    --color-darkblue: #12254b;
+    --color-blue: #3a5eb5;
+    --color-lightblue: #70a6fe;
+    --color-iceblue: #7dd4ff;
+    --color-white: #fff;
+}
+body {
+  background-color: var(--color-white);
+}
+.lemain{
+    width: 90%;
+    background-color: var(--color-iceblue);
+    height: 100%;
+    margin: 10px auto 30px auto;
+    display: flex;
+    
+    
+    
+}
+.maincontent{
+    width: 60%;
+    background-color: var(--color-darkblue);
+    text-align: center;
+    padding: 0 60px;
+    
+}
+.asidepic{
+    width: 40%;
+    background-color: var(--color-black);
+    
+   
+    
+    
+}
+.ivan{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+.h1an{
+    padding:40px 0;
+    font-size: 50px;
+    color: white;
+}
+.ptagg{
+    color:white ;
+    padding-bottom: 30px;
+    line-height: 2rem;
+}
+
+.atagg {
+
+    text-decoration: none;
+
+    color: inherit;
+    
+
+}
+
+ 
+
+.medlem {
+
+    color: #fff;
+
+    font-size: 2rem;
+
+    padding: 10px;
+
+    background: rgba(255, 255, 255, 0.03);
+
+    border-radius: 16px;
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    backdrop-filter: blur(5.5px);
+
+    -webkit-backdrop-filter: blur(5.5px);
+    width: 18rem;
+    margin:20px auto;
+    transition: 0.15s;
+
+}
+
+.medlem:hover{
+    font-size: 1.8rem;
+}
+
