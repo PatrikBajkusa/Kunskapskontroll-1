@@ -16,4 +16,160 @@
     --color-lightblue: #70a6fe;
     --color-iceblue: #7dd4ff;
     --color-white: #fff;
+  }
+
+  header {
+    height: 100px;
+    background-color: var(--color-darkblue);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100px;
+    width: 200px;
+    margin-left: 90px;
+}
+
+#nav-bar {
+    margin-top: 20px;
+}
+
+#nav-bar ul {
+    margin: 20px 30px;
+    list-style-type: none;
+    display: flex;  
+}
+
+#nav-bar ul li {
+    padding: 0 10 0 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+#nav-bar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: var(--color-iceblue);
+}
+
+#nav-bar ul li a:hover{
+    color: white;
+}
+
+.active {
+    color:white;
+}
+
+.nav-link{
+    border-right: 1px solid whitesmoke;
+}
+
+.vanillaice {
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: -9px; */
+}
+
+.vanillaice i {
+    color: var(--color-iceblue);
+    font-size: 50px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* padding: auto 100px; */
+    background: var(--color-darkblue);
+}
+
+
+footer .container2 {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+footer .container2 .sec h2 {
+    position: relative;
+    color: white;
+    margin-bottom: 15px;
+}
+
+
+footer .container2 .time {
+    position: relative;
+}
+
+
+footer .container2 .time ul li {
+    list-style: none;
+    /* font-weight: 600; */
+    color: white;
+}
+
+
+footer .container2 .info {
+    position: relative;
+}
+
+footer .container2 .info ul li {
+    list-style: none;
+}
+
+
+footer .container2 .info ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact i {
+    font-size: 30px;
+}
+
+
+footer .container2 .social {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+
+footer .container2 .social li {
+    list-style: none;
+}
+
+
+footer .container2 .social li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--color-black);
+    display: grid;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer .container2 .social li a i {
+    color: var(--color-iceblue);
+    font-size: 35px;   
+}
+
+
+.copyright {
+    width: 100%;
+    background: var(--color-darkblue);
+    color: white;
+    padding: auto;
+    text-align: center;
+    margin-top: -1px;
 }
