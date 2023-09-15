@@ -14,8 +14,8 @@
 .pic {
     grid-area: pic;
     width: 100%;
-    display: flex;
-    justify-content: center;
+  /*   display: flex;
+    justify-content: center; */
 }
 
 .search {
@@ -31,5 +31,5 @@
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
