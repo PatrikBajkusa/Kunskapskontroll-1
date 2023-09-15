@@ -62,8 +62,18 @@ header {
 }
 /* CONTENT */
 
-.karesuando {
-    position: relative;
+body {
+    background-color: var(--color-white);
+}
+
+.befintliggym {
+    display: flex;
+    
+}
+
+.infokaresuando {
+    display: flex;
+    margin-left: 25%;
 }
 
 .expandering {
@@ -71,27 +81,16 @@ header {
 }
 
 #hr1 {
-    width: 5px;
     margin-right: 2%;
 }
 
 .stockholm {
-    margin-right: 25%;
-}
-
-.map-container {
-
-    justify-content: center;
-    align-items: center;
+    margin-right: 15%;
+    margin-left: 2%;
 }
 
 .map-container i {
     color: var(--color-darkblue);
-}
-
-
-.google-map {
-    width: 48%; 
 }
 
 h2 {
