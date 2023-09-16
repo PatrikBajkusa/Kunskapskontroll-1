@@ -57,6 +57,39 @@
 
         <h1>Bli medlem här</h1>
 
+        <form id="memberform">
+            <fieldset>
+                <legend>Kontaktuppgifter</legend>
+                Namn: <input type="text" required>
+                Mobilnummer: <input type="number" required>
+                E-post: <input type="email" required>
+                Meddelande: <textarea rows="4"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Medlemskap</legend>
+
+                Typ: 
+                <label>
+                <input type="radio" name="membershiptype" checked>Ordinarie
+                </label>
+
+                <label>
+                <input type="radio" name="membershiptype">Student
+                </label>
+
+                <label>
+                <input type="radio" name="membershiptype">Senior
+                </label>
+
+                Startdatum: <input type="date">
+
+            </fieldset>
+
+            <input type="submit" value="Skicka" id="send">
+
+        </form>
+
     </main>
 
     <footer>
