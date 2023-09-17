@@ -28,3 +28,23 @@
 h1 {
     margin: 50px;
 }
+
+/* Formulär */
+
+.formdiv {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    width: 90%;
+    margin: auto auto 20px auto;
+}
+
+#memberform fieldset {
+    display: grid;
+    gap: 10px;
+    background-color: var(--color-iceblue);
+    margin: 15px;
+}
+
+#memberform{
+    color: black;
+}
