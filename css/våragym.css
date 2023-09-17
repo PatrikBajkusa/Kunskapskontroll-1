@@ -1,83 +1,51 @@
-/* HEADER */
-header {
-    height: 100px;
-    background-color: var(--color-darkblue);
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    height: 100px;
-    width: 200px;
-    margin-left: 90px;
-}
-
-#nav-bar {
-    margin-top: 20px;
-}
-
-#nav-bar ul {
-    margin: 20px 30px;
-    list-style-type: none;
-    display: flex;  
-}
-
-#nav-bar ul li {
-    padding: 0 10 0 0px;
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-
-#nav-bar ul li a {
-    text-decoration: none;
-    padding: 10px;
-    color: var(--color-iceblue);
-}
-
-#nav-bar ul li a:hover{
-    color: var(--color-white);
-}
-
-.active {
-    color:var(--color-white);
-}
-
-.nav-link{
-    border-right: 1px solid whitesmoke;
-}
-
-.vanillaice {
-    width: 100%;
-    /* padding: 10px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* margin-top: -9px; */
-}
-
-.vanillaice i {
-    color: var(--color-iceblue);
-    font-size: 50px;
-}
 /* CONTENT */
 
 body {
     background-color: var(--color-white);
 }
 
-.befintliggym {
-    display: flex;
-    
+.våragymmain {
+    background-color: var(--color-darkblue);
+    margin-bottom: 15px;
+    width: 90%;
+    margin: 10px auto 30px auto;
 }
 
-.infokaresuando {
-    display: flex;
-    margin-left: 25%;
+h1,
+h2,
+h3,
+h4,
+p {
+    color: var(--color-white);
 }
 
+.befintliggym,
+.pinplats,
 .expandering {
     display: flex;
+}
+
+.infoomkaresuando {
+    display: block;
+    margin-left: 15px;
+}
+
+#karesuandomap {
+    margin-left: 15px;
+}
+
+button {
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    background: #fff;
+    border-radius: 12px;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: var(--color-iceblue);
 }
 
 #hr1 {
@@ -89,10 +57,6 @@ body {
     margin-left: 2%;
 }
 
-.map-container i {
-    color: var(--color-darkblue);
-}
-
 h2 {
     text-align: center;
     font-size: 30px;
@@ -100,96 +64,19 @@ h2 {
     margin-bottom: 30px;
 }
 
-
-/* FOOTER */
-footer {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background: var(--color-darkblue);
-}
-
-
-footer .container2 {
-    display: grid;
-    justify-items: center;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 20px;
-}
-
-footer .container2 .sec h2 {
-    position: relative;
-    color: var(--color-white);
+h3 {
     margin-bottom: 15px;
 }
 
-
-footer .container2 .time {
-    position: relative;
+.google-map {
+    margin: 15px 15px 15px 0px;
 }
 
-
-footer .container2 .time ul li {
-    list-style: none;
-    color: var(--color-white);
+.pinplats {
+    margin-top: 10px;
 }
 
-
-footer .container2 .info {
-    position: relative;
+.fa-location-pin {
+    margin-right: 5px;
 }
 
-footer .container2 .info ul li {
-    list-style: none;
-}
-
-
-footer .container2 .info ul li a {
-    text-decoration: none;
-    color: var(--color-white);
-}
-
-.contact i {
-    font-size: 30px;
-}
-
-
-footer .container2 .social {
-    display: grid;
-    grid-template-columns: repeat(4, 50px);
-}
-
-footer .container2 .social li {
-    list-style: none;
-}
-
-
-footer .container2 .social li a {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background: var(--color-black);
-    display: grid;
-    margin: auto;
-    align-content: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-footer .container2 .social li a i {
-    color: var(--color-iceblue);
-    font-size: 35px;   
-}
-
-
-.copyright {
-    width: 100%;
-    background: var(--color-darkblue);
-    color: var(--color-white);
-    padding: auto;
-    text-align: center;
-    margin-top: -1px;
-}
