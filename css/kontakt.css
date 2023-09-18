@@ -20,8 +20,18 @@ img {
     padding: 10px
 }
 
+.sci {
+    display: flex;
+    gap: 20px;
+}
+
+.sci i {
+    font-size: 2rem;
+}
+
 .form {
     background: var(--color-darkblue);
+    border-radius: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5%;
