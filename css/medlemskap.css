@@ -15,6 +15,7 @@
     background-color: var(--color-darkblue);
     color: var(--color-white);
     padding-top: 10px;
+    transition: 0.5s; /* Lade till denna Kyra, så att boxarna roterar lite långsammare :D //Alexander */
 }
 
 .memberbox:hover {
