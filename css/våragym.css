@@ -13,32 +13,43 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 p {
     color: var(--color-white);
+}
+
+h3 {
+    color: var(--color-iceblue);
+}
+
+h4 {
+    margin-bottom: 5px;
 }
 
 .befintliggym,
 .pinplats,
 .expandering {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.expandering {
+    justify-content: space-around;   
+}
+
+.befintliggym {
+    justify-content:space-evenly;
 }
 
 .infoomkaresuando {
     display: block;
-    margin-left: 15px;
-}
-
-#karesuandomap {
-    margin-left: 15px;
 }
 
 button {
     height: 2rem;
     width: 6rem;
     border: none;
-    background: #fff;
+    background: var(--color-white);
     border-radius: 12px;
     transition: 0.5s;
     margin-top: 30px;
@@ -48,16 +59,7 @@ button:hover {
     background-color: var(--color-iceblue);
 }
 
-#hr1 {
-    margin-right: 2%;
-}
-
-.stockholm {
-    margin-right: 15%;
-    margin-left: 2%;
-}
-
-h2 {
+.våragymh2 {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
@@ -80,3 +82,42 @@ h3 {
     margin-right: 5px;
 }
 
+
+
+/* Tablet */
+@media screen and (max-width: 960px) {
+    #hr1 {
+    display: block;
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .öppningtext {
+        margin-top: 30px;
+    }
+
+    .google-map {
+        margin-bottom: 30px;
+    }
+}
+
+/* Smaller tablet*/
+@media screen and (max-width: 900px) {
+    .google-map iframe{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px){
+    .befintliggym {
+       justify-content: flex-start;
+       padding-left: 3%;
+    }
+
+    .google-map-karesuando {
+        align-self: center;
+        width: 91%;
+    }
+}
