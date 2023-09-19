@@ -70,8 +70,10 @@ header {
 #active {
     color: var(--color-white)!important;
     font-size: 20px;
-    
-    
+}
+
+.dropdown {
+    display: none;
 }
 
 .nav-link{
@@ -207,6 +209,56 @@ footer .container2 .social li a i:hover {
         display: none;
     }
 
+    .dropbtn {
+        background-color: transparent;
+        color: var(--color-white);
+        padding: 16px;
+        font-size: 2px;
+        border: none;
+        cursor: pointer;
+        margin-right: 30px;
+        margin-top: 22px;
+        min-width: 100px;
+    }
+
+      .dropbtn i {
+        font-size: 2rem;
+      }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content { 
+        display: none;
+        position: absolute;
+        background-color: var(--color-blue);
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px;
+        z-index: 1;
+        list-style: none;
+
+    }
+
+    .dropdown-content a {
+        color: var(--color-black);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: var(--color-iceblue);
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+    .dropdown:hover .dropbtn {
+        background-color: var(--color-lightblue);
+    }
 }
 
 @media screen and (max-width: 768px) {
