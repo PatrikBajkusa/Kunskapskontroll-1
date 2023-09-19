@@ -17,7 +17,7 @@ img {
     color: var(--color-white);
 }
 
-.info {
+.right .info {
     padding: 10px
 }
 
