@@ -26,6 +26,7 @@ i {
 /* HEADER */
 header {
     height: 100px;
+    width: 100%;
     background-color: var(--color-darkblue);
     display: flex;
     justify-content: space-between;
@@ -98,6 +99,14 @@ footer {
     background: var(--color-darkblue);
 }
 
+/* footer .container2 div h2 {
+    text-align: center;
+    justify-content: flex-start;
+} */
+
+/* footer .container2 div ul {
+    margin-left: 30px;
+} */
 
 footer .container2 {
     display: grid;
@@ -148,7 +157,6 @@ footer .container2 .info ul li a {
     font-size: 30px;
 }
 
-
 footer .container2 .social {
     display: grid;
     grid-template-columns: repeat(4, 50px);
@@ -158,13 +166,8 @@ footer .container2 .social li {
     list-style: none;
 }
 
-
 footer .container2 .social li a {
     display: inline-block;
-    /*width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background: var(--color-black);*/
     display: grid;
     margin: auto;
     align-content: center;
@@ -192,4 +195,41 @@ footer .container2 .social li a i:hover {
     text-align: center;
     margin-top: -1px;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .nav-bar {
+        width: 1%;
+    }
+
+    #nav-bar {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    footer .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 div {
+        margin: 0 auto;
+    }
+
+    .info {
+        padding-left: 90px;
+    }
+    
+    .icons {
+        padding-left: 70px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
 }
