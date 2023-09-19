@@ -29,6 +29,8 @@
     display: flex;
     justify-self: center;
     text-align: center;
+    margin-top: 10px;
+    height: 45px;
 }
 
 .svar1, .svar2 {
@@ -74,9 +76,10 @@ aside {
     color: var(--color-white);
 
     width: 25vw;
-    height: 32vh;
+    /* min-height: 32vh; */
 
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px;
     border-radius: 15px;
 
@@ -86,10 +89,10 @@ aside {
     background-color: var(--color-darkblue);
     color: var(--color-white);
 
-    width: 25vw;
-    height: 84vh;
+    width: 27vw;
+    min-height: 81vh;
 
-    padding: 45px;
+    padding: 20px;
     border-radius: 15px;
 }
 
@@ -98,31 +101,33 @@ img {
 }
 
 h4 {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 25px;
 }
 
 .lista {
-    font-size: 1.4vw;
+    font-size: 1.3rem;
     margin-left: 24px;
     padding: 10px;
     line-height: 5vh;
+    list-style: none;
 }
 
 h3 {
-    font-size: 1.8vw;
+    font-size: 1.7rem;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 p {
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     padding: 3px;
 }
 
 .glas {
-    height: 27.5vh;
+    min-height: 27.5vh;
 
     background: rgba(255, 255, 255, 0.07);
     border-radius: 16px;
@@ -132,11 +137,12 @@ p {
 }
 
 hr {
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-top: 100px;
+    margin-bottom: 55px;
 }
 
 .lista li:hover {
     color: var(--color-iceblue);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
+
