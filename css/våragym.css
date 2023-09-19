@@ -1,5 +1,3 @@
-/* CONTENT */
-
 body {
     background-color: var(--color-white);
 }
@@ -46,6 +44,11 @@ h4 {
 
 .infoomkaresuando {
     display: block;
+}
+
+.google-map-karesuando > iframe,
+.google-map > iframe {
+    border-radius: 10px;
 }
 
 button {
@@ -119,11 +122,12 @@ h3 {
 @media screen and (max-width: 600px){
     .befintliggym {
        justify-content: flex-start;
-       padding-left: 3%;
+       padding-left: 7%;
     }
 
     .google-map-karesuando {
         align-self: center;
         width: 91%;
+        border-radius: 10px;
     }
 }
