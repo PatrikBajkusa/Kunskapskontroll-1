@@ -38,17 +38,17 @@
 
     <main class=>
         <div class="membership">
-            <article class="memberbox box1">
+            <article class="memberbox">
                 <h2>Ordinarie</h2>
                 <p>399 kr / mån</p>
                 <p>Kampanj - 10 isbad ingår!</p>
             </article>
-            <article class="memberbox box2">
+            <article class="memberbox">
                 <h2>Student</h2>
                 <p>299 kr / mån</p>
                 <p> Kampanj - 10 isbad ingår!</p>
             </article>
-            <article class="memberbox box3">
+            <article class="memberbox">
                 <h2>Senior (65+)</h2>
                 <p>299 kr / mån</p>
                 <p> Kampanj - 10 isbad ingår!</p>
@@ -61,10 +61,10 @@
         <form id="memberform">
             <fieldset>
                 <legend>Kontaktuppgifter</legend>
-                Namn: <input type="text" required>
-                Mobilnummer: <input type="number" required>
-                E-post: <input type="email" required>
-                Meddelande: <textarea rows="4"></textarea>
+                Namn: <input type="text" name="full_name" required>
+                Mobilnummer: <input type="number" name="phone" required>
+                E-post: <input type="email" name="email" required>
+                Meddelande: <textarea rows="4" name="message"></textarea>
             </fieldset>
 
             <fieldset>
@@ -83,7 +83,7 @@
                 <input type="radio" name="membershiptype">Senior
                 </label>
 
-                Startdatum: <input type="date">
+                Startdatum: <input type="date" name="startdate">
 
             </fieldset>
 
