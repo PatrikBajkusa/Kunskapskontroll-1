@@ -217,5 +217,19 @@ hr {
 
 @media screen and (max-width: 768px) {
 
+    #container {
+        display: grid;
+        grid-template-areas: 
+        'pic'
+        'search1'
+        'search2'
+        'main'
+        'main'
+        'aside'
+        ;
+        margin: 20px;
+    }
+
+
 
 }
