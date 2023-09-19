@@ -18,7 +18,7 @@
 
 .question {
     grid-area: search1;
-    font-size: 1.8rem;
+    font-size: 2.2vw;
     text-align: center;
     margin-top: 30px;
     color: var(--color-darkblue);
@@ -34,7 +34,7 @@
 }
 
 .svar1, .svar2 {
-    font-size: 1.4rem;
+    font-size: 1.4vw;
     border: 1px solid #71797E;
 }
 
@@ -127,8 +127,7 @@ p {
 }
 
 .glas {
-    min-height: 27.5vh;
-
+    height: 100%;
     background: rgba(255, 255, 255, 0.07);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -143,6 +142,5 @@ hr {
 
 .lista li:hover {
     color: var(--color-iceblue);
-    /* text-decoration: underline; */
 }
 
