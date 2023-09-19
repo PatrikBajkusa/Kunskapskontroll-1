@@ -102,6 +102,30 @@ i {
     -webkit-backdrop-filter: blur(4.2px);
 }
 
+@media screen and (max-width: 960px) {
 
+    .box {
+        flex-wrap: wrap;
+    }
 
+    .minibox {
+        height: 350px;
+        width: 350px;
+    }
+
+    .minibox p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .minibox {
+        height: 250px;
+        width: 100%;
+    }
+
+    
+
+}
 
