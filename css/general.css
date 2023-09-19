@@ -58,6 +58,7 @@ header {
     text-decoration: none;
     padding: 10px;
     color: var(--color-iceblue);
+    transition: all 0.2s ease-in-out;
 }
 
 #nav-bar ul li a:hover{
@@ -118,6 +119,9 @@ footer .container2 .time {
     position: relative;
 }
 
+footer .container2 .time ul {
+    line-height: 1.5;
+}
 
 footer .container2 .time ul li {
     list-style: none;
@@ -137,6 +141,7 @@ footer .container2 .info ul li {
 footer .container2 .info ul li a {
     text-decoration: none;
     color: var(--color-white);
+    padding-left: 8px;
 }
 
 .contact i {
@@ -163,13 +168,19 @@ footer .container2 .social li a {
     display: grid;
     margin: auto;
     align-content: center;
-    justify-content: center;
+    justify-content: start;
     text-decoration: none;
 }
 
 footer .container2 .social li a i {
     color: var(--color-iceblue);
     font-size: 35px;   
+    transition: all 0.2s ease-in-out;
+}
+
+footer .container2 .social li a i:hover {
+    transform: scale(1.1);
+    color: var(--color-white);
 }
 
 
@@ -180,4 +191,5 @@ footer .container2 .social li a i {
     padding: auto;
     text-align: center;
     margin-top: -1px;
+    padding-bottom: 10px;
 }
