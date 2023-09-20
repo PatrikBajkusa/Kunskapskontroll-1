@@ -31,24 +31,6 @@
   text-align: center;
   margin-top: 25px;
   height: 45px;
-
-    grid-area: search1;
-    font-size: 2.1vw;
-    justify-self: center;
-    align-self: end;
-    margin-top: 10px;
-    color: var(--color-darkblue);
-
-}
-
-.search {
-    grid-area: search2;
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    margin-top: 25px;
-    height: 45px;
-
 }
 
 .svar1,
@@ -97,20 +79,6 @@ aside {
   color: var(--color-white);
 
   width: 28vw;
-  min-height: 32vh;
-}
-
-
-.box1, .box2, .box3, .box4 {
-  background-color: var(--color-darkblue);
-  color: var(--color-white);
-
-  width: 28vw;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 20px;
-  border-radius: 15px;
-
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 20px;
@@ -122,16 +90,9 @@ aside {
   color: var(--color-white);
 
   width: 28vw;
-  min-height: 81vh;
-
   padding: 20px;
   border-radius: 15px;
-    width: 28vw;
-    padding: 20px;
-    border-radius: 15px;
-    
 }
-
 
 img {
   width: 100%;
@@ -147,14 +108,8 @@ h4 {
   font-size: 1.3rem;
   margin-left: 15px;
   padding: 10px;
-  line-height: 5vh;
+  line-height: 45px;
   list-style: none;
-
-    font-size: 1.3rem;
-    margin-left: 15px;
-    padding: 10px;
-    line-height: 45px;
-    list-style: none;
 }
 
 h3 {
@@ -180,10 +135,8 @@ p {
 }
 
 hr {
-  margin-top: 90px;
-  margin-bottom: 55px;
-    margin-top: 75px;
-    margin-bottom: 60px;
+  margin-top: 75px;
+  margin-bottom: 60px;
 }
 
 .lista li:hover {
@@ -232,174 +185,124 @@ hr {
   .box2,
   .box3,
   .box4 {
-    width: 54vw;
+    width: 55vw;
   }
 
   .sidebox {
     width: 37vw;
-    min-height: 132vh;
+    height: 1220px;
   }
 
   .question {
     justify-self: start;
-    margin-left: 12.5vw;
-    font-size: 2.4vw;
+    margin-left: 12vw;
+    font-size: 2.6vw;
+    margin-top: 30px;
   }
 
   .search {
     justify-self: start;
-    margin-left: 6vw;
+    margin-left: 7vw;
+    margin-bottom: 20px;
   }
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .box1, .box2, .box3, .box4 {
-        width: 55vw;
-    }
-
-    .sidebox {
-        width: 37vw;
-        height: 1220px;
-    }
-
-
-    .question {
-        justify-self: start;
-        margin-left: 12vw;
-        font-size: 2.6vw;
-        margin-top: 30px;
-    }
-
-
-    .search {
-        justify-self: start;
-        margin-left: 7vw;
-        margin-bottom: 20px;
-    }
-
-    .svar1, .svar2 {
-        font-size: 2.3vw;
-    }
-
-    h3 {
-        margin-top: 150px;
-    }
-
-
-    hr {
-        margin-top: 155px;
-    }
 
   .svar1,
   .svar2 {
-    font-size: 2.2vw;
+    font-size: 2.3vw;
+  }
+
+  h3 {
+    margin-top: 150px;
+  }
+
+  hr {
+    margin-top: 155px;
   }
 }
 
 @media screen and (max-width: 768px) {
   #container {
     display: grid;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "pic"
       "search1"
       "search2"
+      "aside"
       "main"
-      "main"
-      "aside";
+      "main";
+  }
+
+  .question {
+    justify-self: center;
+    margin-left: 0;
+    font-size: 4.1vw;
+    margin-top: 10px;
+  }
+
+  .search {
+    justify-self: center;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .svar1,
+  .svar2 {
+    font-size: 3.9vw;
+  }
+
+  .svar1 {
+    width: 55vw;
+  }
+
+  .svar2 {
+    width: 17vw;
   }
 
   .box1,
   .box2,
   .box3,
   .box4 {
-    min-width: 80vw;
+    width: 100%;
   }
 
-    #container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        'pic'
-        'search1'
-        'search2'
-        'aside'
-        'main'
-        'main'
-        ;
-    }
+  .sidebox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+  }
 
-    .question {
-        justify-self: center;
-        margin-left: 0;
-        font-size: 4.1vw;
-        margin-top: 10px;
-    }
+  .sidebox1,
+  .sidebox2 {
+    width: 50%;
+    padding: 10px;
+  }
 
-    .search {
-        justify-self: center;
-        margin-left: 0;
-        margin-bottom: 10px;
-        
-    }
+  .aside {
+    margin-top: 10px;
+  }
 
-    .svar1, .svar2 {
-        font-size: 3.9vw;
-    }
+  h4 {
+    font-size: 4vw;
+  }
 
-    .svar1 {
-        width: 55vw;
-    }
-    
-    .svar2 {
-        width: 17vw;
-    }
+  .lista {
+    font-size: 3.7vw;
+  }
 
-    .box1, .box2, .box3, .box4 {
-        width: 100%;
-    }
+  h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 4vw;
+  }
 
-    .sidebox {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        padding: 10px;
-    
-    }
+  p {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
 
-    .sidebox1, .sidebox2 {
-        width: 50%;
-        padding: 10px;
-    }
-
-
-    .aside {
-        margin-top: 10px;
-    }
-
-    h4 {
-        font-size: 4vw;
-    }
-    
-    .lista {
-        font-size: 3.7vw;
-    }
-
-    h3 {
-        margin-top: 0;
-        margin-bottom: 12px;
-        font-size: 4vw;
-    }
-
-    p {
-        font-size: 3vw;
-        line-height: 4vw;
-    }
-
-    hr {
-        margin: 5px;
-    }
-
-
+  hr {
+    margin: 5px;
+  }
 }
