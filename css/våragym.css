@@ -34,7 +34,7 @@ h4 {
 }
 
 .expandering {
-    justify-content: space-around;   
+    justify-content: space-around;
 }
 
 .befintliggym {
@@ -51,7 +51,7 @@ h4 {
     border-radius: 10px;
 }
 
-button {
+.about-link-button {
     height: 2rem;
     padding: 5px 20px;
     border: none;
@@ -61,7 +61,7 @@ button {
     margin-top: 30px;
 }
 
-button:hover {
+.about-link-button:hover {
     background-color: var(--color-iceblue);
 }
 
@@ -69,6 +69,10 @@ button:hover {
     text-align: center;
     font-size: 30px;
     margin-bottom: 30px;
+}
+
+#viexpanderar {
+    margin-bottom: 5px;
 }
 
 h3 {
@@ -121,13 +125,13 @@ h3 {
 /* Mobile */
 @media screen and (max-width: 600px){
     .befintliggym {
-       justify-content: flex-start;
-       padding-left: 7%;
+       display: block;
+       max-width: 315px;
+       margin: 0 auto;
     }
 
     .google-map-karesuando {
         align-self: center;
-        width: 91%;
         border-radius: 10px;
     }
 }
