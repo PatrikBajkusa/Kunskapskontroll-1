@@ -7,7 +7,7 @@
 .memberbox {
     display: flex;
     height: 250px;
-    width: 250px;
+    width: 30%;
     border: 5px groove var(--color-iceblue);
     border-radius: 20px;
     margin-bottom: 50px;
@@ -27,6 +27,10 @@
     
     text-align: center;
     margin-top: 35px;
+}
+
+.memberbox h2 {
+    color: var(--color-iceblue);
 }
 
 #send {
@@ -103,9 +107,33 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .memberbox {
-        width: 80%;
+        width: 100%;
         height: 200px;
+        margin: 15px;
+        border: 5px solid var(--color-iceblue);
     }
 
 }
 
+@media screen and (max-width: 600px) {
+    .memberbox {
+        width: 100%;
+        margin: 10px;
+        height: 150px;
+    }
+
+    .memberbox p {
+        font-size: 15px;
+        
+    }
+
+    .memberbox h2 {
+        font-size: 20px;
+        color: var(--color-iceblue);
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    
+    
+}
