@@ -142,7 +142,7 @@ a {
     color: inherit;
 }
 
-button {
+.button {
     height: 2rem;
     width: 6rem;
     margin: 0 auto;
@@ -152,7 +152,7 @@ button {
     transition: 0.5s;
 }
 
-button:hover {
+.button:hover {
     background-color: var(--color-iceblue);
 }
 
