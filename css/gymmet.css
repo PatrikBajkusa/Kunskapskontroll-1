@@ -111,6 +111,7 @@ body {
         display: flex;
         width: 100%;
         flex-direction: row;
+        padding: 0 40px;
         
         
     }
@@ -121,8 +122,11 @@ body {
     .ptagg {
         padding: 10px 20px;
     }
+    .polar{
+        padding: 0 20px;
+    }
     
-
+    
     
 
     
