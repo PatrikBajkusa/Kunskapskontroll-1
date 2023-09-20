@@ -1,104 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
 
 /* RESET */
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}    
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
 
 /* VARIABLES */
 :root {
-    --color-black: #140f07;
-    --color-darkblue: #12254b;
-    --color-blue: #3a5eb5;
-    --color-lightblue: #70a6fe;
-    --color-iceblue: #7dd4ff;
-    --color-white: #fff;
+  --color-black: #140f07;
+  --color-darkblue: #12254b;
+  --color-blue: #3a5eb5;
+  --color-lightblue: #70a6fe;
+  --color-iceblue: #7dd4ff;
+  --color-white: #fff;
 }
 
 i {
-    color: var(--color-iceblue);
+  color: var(--color-iceblue);
 }
 
 /* HEADER */
 header {
-    height: 100px;
-    width: 100%;
-    background-color: var(--color-darkblue);
-    display: flex;
-    justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  background-color: var(--color-darkblue);
+  display: flex;
+  justify-content: space-between;
 }
 
-.logo{
-    height: 100px;
-    width: 200px;
-    margin-left: 90px;
+.logo {
+  height: 100px;
+  width: 200px;
+  margin-left: 90px;
 }
 
 #nav-bar {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #nav-bar ul {
-    margin: 20px 30px;
-    list-style-type: none;
-    display: flex;  
+  margin: 20px 30px;
+  list-style-type: none;
+  display: flex;
 }
 
 #nav-bar ul li {
-    padding: 0 10 0 0px;
-    font-size: 18px;
-    font-family: sans-serif;
+  padding: 0 10 0 0px;
+  font-size: 18px;
+  font-family: sans-serif;
 }
-
 
 #nav-bar ul li a {
-    text-decoration: none;
-    padding: 10px;
-    color: var(--color-iceblue);
-    transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  padding: 10px;
+  color: var(--color-iceblue);
+  transition: all 0.2s ease-in-out;
 }
 
-#nav-bar ul li a:hover{
-    color: var(--color-white);
-    font-size: 20px;
+#nav-bar ul li a:hover {
+  color: var(--color-white);
+  font-size: 20px;
 }
 
 #active {
-    color: var(--color-white)!important;
-    font-size: 20px;
+  color: var(--color-white) !important;
+  font-size: 20px;
 }
 
 .dropdown {
-    display: none;
+  display: none;
 }
 
-.nav-link{
-    border-right: 1px solid whitesmoke;
+.nav-link {
+  border-right: 1px solid whitesmoke;
 }
 
 .vanillaice {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .vanillaice i {
-    color: var(--color-iceblue);
-    font-size: 50px;
+  color: var(--color-iceblue);
+  font-size: 50px;
 }
-
 
 /* FOOTER */
 footer {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background: var(--color-darkblue);
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: var(--color-darkblue);
 }
 
 /* footer .container2 div h2 {
@@ -111,177 +109,169 @@ footer {
 } */
 
 footer .container2 {
-    display: grid;
-    justify-items: center;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    padding: 20px;
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
 }
 
 footer .container2 .sec h2 {
-    position: relative;
-    color: var(--color-white);
-    margin-bottom: 15px;
+  position: relative;
+  color: var(--color-white);
+  margin-bottom: 15px;
 }
 
-
 footer .container2 .time {
-    position: relative;
+  position: relative;
 }
 
 footer .container2 .time ul {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 footer .container2 .time ul li {
-    list-style: none;
-    color: var(--color-white);
+  list-style: none;
+  color: var(--color-white);
 }
 
-
 footer .container2 .info {
-    position: relative;
+  position: relative;
 }
 
 footer .container2 .info ul li {
-    list-style: none;
+  list-style: none;
 }
 
-
 footer .container2 .info ul li a {
-    text-decoration: none;
-    color: var(--color-white);
-    padding-left: 8px;
+  text-decoration: none;
+  color: var(--color-white);
+  padding-left: 8px;
 }
 
 .contact i {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 footer .container2 .social {
-    display: grid;
-    grid-template-columns: repeat(4, 50px);
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
 }
 
 footer .container2 .social li {
-    list-style: none;
+  list-style: none;
 }
 
 footer .container2 .social li a {
-    display: inline-block;
-    display: grid;
-    margin: auto;
-    align-content: center;
-    justify-content: start;
-    text-decoration: none;
+  display: inline-block;
+  display: grid;
+  margin: auto;
+  align-content: center;
+  justify-content: start;
+  text-decoration: none;
 }
 
 footer .container2 .social li a i {
-    color: var(--color-iceblue);
-    font-size: 35px;   
-    transition: all 0.2s ease-in-out;
+  color: var(--color-iceblue);
+  font-size: 35px;
+  transition: all 0.2s ease-in-out;
 }
 
 footer .container2 .social li a i:hover {
-    transform: scale(1.1);
-    color: var(--color-white);
+  transform: scale(1.1);
+  color: var(--color-white);
 }
 
-
 .copyright {
-    width: 100%;
-    background: var(--color-darkblue);
-    color: var(--color-white);
-    padding: auto;
-    text-align: center;
-    margin-top: -1px;
-    padding-bottom: 10px;
+  width: 100%;
+  background: var(--color-darkblue);
+  color: var(--color-white);
+  padding: auto;
+  text-align: center;
+  margin-top: -1px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 960px) {
+  .nav-bar {
+    width: 1%;
+  }
 
-    .nav-bar {
-        width: 1%;
-    }
+  #nav-bar {
+    display: none;
+  }
 
-    #nav-bar {
-        display: none;
-    }
+  .dropbtn {
+    background-color: transparent;
+    color: var(--color-white);
+    padding: 16px;
+    font-size: 2px;
+    border: none;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-top: 22px;
+    min-width: 100px;
+  }
 
-    .dropbtn {
-        background-color: transparent;
-        color: var(--color-white);
-        padding: 16px;
-        font-size: 2px;
-        border: none;
-        cursor: pointer;
-        margin-right: 30px;
-        margin-top: 22px;
-        min-width: 100px;
-    }
+  .dropbtn i {
+    font-size: 2rem;
+  }
 
-      .dropbtn i {
-        font-size: 2rem;
-      }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-blue);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    list-style: none;
+  }
 
-    .dropdown-content { 
-        display: none;
-        position: absolute;
-        background-color: var(--color-blue);
-        min-width: 100px;
-        box-shadow: 0px 8px 16px 0px;
-        z-index: 1;
-        list-style: none;
+  .dropdown-content a {
+    color: var(--color-black);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
 
-    }
+  .dropdown-content a:hover {
+    background-color: var(--color-iceblue);
+  }
 
-    .dropdown-content a {
-        color: var(--color-black);
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
-    .dropdown-content a:hover {
-        background-color: var(--color-iceblue);
-    }
-
-    .dropdown:hover .dropdown-content {
-        display: block;
-      }
-
-    .dropdown:hover .dropbtn {
-        background-color: var(--color-lightblue);
-    }
+  .dropdown:hover .dropbtn {
+    background-color: var(--color-lightblue);
+  }
 }
 
 @media screen and (max-width: 768px) {
+  footer .container2 {
+    display: flex;
+    flex-direction: column;
+  }
 
-    footer .container2 {
-        display: flex;
-        flex-direction: column;
-    }
+  .container2 div {
+    margin: 0 auto;
+  }
 
-    .container2 div {
-        margin: 0 auto;
-    }
+  .info {
+    padding-left: 90px;
+  }
 
-    .info {
-        padding-left: 90px;
-    }
-    
-    .icons {
-        padding-left: 70px;
-    }
+  .icons {
+    padding-left: 70px;
+  }
 
-    .logo {
-        margin-left: 30px;
-    }
-
+  .logo {
+    margin-left: 30px;
+  }
 }

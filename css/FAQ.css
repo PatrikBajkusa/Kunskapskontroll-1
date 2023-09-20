@@ -1,238 +1,236 @@
 #container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    'pic pic pic'
-    'search1 search1 aside'
-    'search2 search2 aside'
-    'main main aside'
-    'main main aside'
-    ;
-    margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "pic pic pic"
+    "search1 search1 aside"
+    "search2 search2 aside"
+    "main main aside"
+    "main main aside";
+  margin: 20px;
 }
 
 .pic {
-    grid-area: pic;
-    width: 100%;
+  grid-area: pic;
+  width: 100%;
 }
 
 .question {
-    grid-area: search1;
-    font-size: 2.1vw;
-    /* text-align: center; */
-    justify-self: center;
-    align-self: end;
-    margin-top: 10px;
-    color: var(--color-darkblue);
-
+  grid-area: search1;
+  font-size: 2.1vw;
+  /* text-align: center; */
+  justify-self: center;
+  align-self: end;
+  margin-top: 10px;
+  color: var(--color-darkblue);
 }
 
 .search {
-    grid-area: search2;
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    margin-top: 25px;
-    height: 45px;
+  grid-area: search2;
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  margin-top: 25px;
+  height: 45px;
 }
 
-.svar1, .svar2 {
-    font-size: 1.8vw;
-    border: 1px solid #71797E;
+.svar1,
+.svar2 {
+  font-size: 1.8vw;
+  border: 1px solid #71797e;
 }
 
 .svar1 {
-    width: 33vw;
+  width: 33vw;
 }
 
 .svar2 {
-    width: 8vw;
+  width: 8vw;
 }
 
 #ikon {
-    color: black;
+  color: black;
 }
 
-
 main {
-    grid-area: main;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 aside {
-    grid-area: aside;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    text-align: center;
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
 
-    margin-top: 30px;
-    margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
-.box1, .box2, .box3, .box4 {
-    background-color: var(--color-darkblue);
-    color: var(--color-white);
+.box1,
+.box2,
+.box3,
+.box4 {
+  background-color: var(--color-darkblue);
+  color: var(--color-white);
 
-    width: 28vw;
-    /* min-height: 32vh; */
+  width: 28vw;
+  /* min-height: 32vh; */
 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 20px;
-    border-radius: 15px;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .sidebox {
-    background-color: var(--color-darkblue);
-    color: var(--color-white);
+  background-color: var(--color-darkblue);
+  color: var(--color-white);
 
-    width: 28vw;
-    min-height: 81vh;
+  width: 28vw;
+  min-height: 81vh;
 
-    padding: 20px;
-    border-radius: 15px;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 h4 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .lista {
-    font-size: 1.3rem;
-    margin-left: 15px;
-    padding: 10px;
-    line-height: 5vh;
-    list-style: none;
+  font-size: 1.3rem;
+  margin-left: 15px;
+  padding: 10px;
+  line-height: 5vh;
+  list-style: none;
 }
 
 h3 {
-    font-size: 1.7rem;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 p {
-    font-size: 1.3rem;
-    padding: 5px;
-    line-height: 28px;
+  font-size: 1.3rem;
+  padding: 5px;
+  line-height: 28px;
 }
 
 .glas {
-    height: 100%;
-    background: rgba(255, 255, 255, 0.07);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
+  height: 100%;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
 }
 
 hr {
-    margin-top: 90px;
-    margin-bottom: 55px;
+  margin-top: 90px;
+  margin-bottom: 55px;
 }
 
 .lista li:hover {
-    color: var(--color-iceblue);
+  color: var(--color-iceblue);
 }
 
-
 @media screen and (max-width: 1200px) {
+  .question {
+    margin-top: 0;
+    font-size: 2.4vw;
+  }
+  .svar1,
+  .svar2 {
+    font-size: 2.2vw;
+  }
 
-    .question {
-        margin-top: 0;
-        font-size: 2.4vw;
-    }
-    .svar1, .svar2 {
-        font-size: 2.2vw;
-    }
+  .search {
+    margin-top: 15px;
+  }
 
-    .search {
-        margin-top: 15px;
-    }
+  main {
+    margin-top: 0;
+  }
 
-    main {
-        margin-top: 0;
-    }
+  .lista {
+    margin-left: 10px;
+  }
 
-    .lista {
-        margin-left: 10px;
-    }
-    
-    h3 {
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
 
-    hr {
-        margin-top: 65px;
-    }
-
+  hr {
+    margin-top: 65px;
+  }
 }
 
 @media screen and (max-width: 960px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 
-    main {
-        display: flex;
-        flex-direction: column;
-    }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 54vw;
+  }
 
-    .box1, .box2, .box3, .box4 {
-        width: 54vw;
-    }
+  .sidebox {
+    width: 37vw;
+    min-height: 132vh;
+  }
 
-    .sidebox {
-        width: 37vw;
-        min-height: 132vh;
-    }
+  .question {
+    justify-self: start;
+    margin-left: 12.5vw;
+    font-size: 2.4vw;
+  }
 
-    .question {
-        justify-self: start;
-        margin-left: 12.5vw;
-        font-size: 2.4vw;
-    }
+  .search {
+    justify-self: start;
+    margin-left: 6vw;
+  }
 
-    .search {
-        justify-self: start;
-        margin-left: 6vw;
-    }
-
-    .svar1, .svar2 {
-        font-size: 2.2vw;
-    }
-
+  .svar1,
+  .svar2 {
+    font-size: 2.2vw;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  #container {
+    display: grid;
+    grid-template-areas:
+      "pic"
+      "search1"
+      "search2"
+      "main"
+      "main"
+      "aside";
+  }
 
-    #container {
-        display: grid;
-        grid-template-areas: 
-        'pic'
-        'search1'
-        'search2'
-        'main'
-        'main'
-        'aside'
-        ;
-
-    }
-
-    .box1, .box2, .box3, .box4 {
-        /* min-width: 80vw; */
-    }
-
-
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    /* min-width: 80vw; */
+  }
 }
