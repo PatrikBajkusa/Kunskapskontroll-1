@@ -129,6 +129,7 @@ textarea {
     border: 2px solid #fff;
     border-radius: 2.5%;
     outline: none;
+    resize: none;
     transition: 0.5s;
 }
 
