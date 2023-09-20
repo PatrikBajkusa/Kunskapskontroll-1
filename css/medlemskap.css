@@ -77,6 +77,17 @@ h1 {
     color: var(--color-darkblue);
 }
 
+#memberform textarea {
+    resize: none;
+}
+
+#memberform input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
 /* ---Media queries--- */
 
 @media screen and ( max-width: 960px) {
