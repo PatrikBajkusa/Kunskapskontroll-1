@@ -44,7 +44,6 @@
         <i class="fa-solid fa-icicles"></i>
         <i class="fa-solid fa-icicles"></i>
         <i class="fa-solid fa-icicles"></i>
-    <!--<div class="welcome">Välkommen</div>-->
     </div>
 
     <main class=>
@@ -72,29 +71,34 @@
         <form id="memberform">
             <fieldset>
                 <legend>Kontaktuppgifter</legend>
-                Namn: <input type="text" name="full_name" required>
-                Mobilnummer: <input type="number" name="phone" required>
-                E-post: <input type="email" name="email" required>
-                Meddelande: <textarea rows="4" name="message"></textarea>
+                <label for="full_name">Namn:</label>
+                <input type="text" id="full_name" name="full_name" required>
+                <label for="phone">Mobilnummer:</label>
+                <input type="number" id="phone" name="phone" required>
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Meddelande:</label>
+                <textarea rows="4" id="message" name="message"></textarea>
             </fieldset>
 
             <fieldset>
                 <legend>Medlemskap</legend>
+                
+                <div>
+                <p>Typ av medlemskap:</p> 
 
-                Typ: 
-                <label>
-                <input type="radio" name="membershiptype" checked>Ordinarie
-                </label>
+                <input type="radio" id="ordinarie" name="membershiptype" value="ordinarie" checked>
+                <label for="ordinarie">Ordinarie</label><br>
 
-                <label>
-                <input type="radio" name="membershiptype">Student
-                </label>
+                <input type="radio" id="student" name="membershiptype" value="student">
+                <label for="student">Student</label><br>
 
-                <label>
-                <input type="radio" name="membershiptype">Senior
-                </label>
+                <input type="radio" id="senior" name="membershiptype" value="senior">
+                <label for="senior">Senior</label>
+                </div>
 
-                Startdatum: <input type="date" name="startdate">
+                <label for="startdate">Startdatum:</label>
+                <input type="date" id="startdate" name="startdate">
 
             </fieldset>
 
