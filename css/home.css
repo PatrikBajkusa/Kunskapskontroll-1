@@ -114,7 +114,7 @@ i {
     }
 
     .minibox {
-        height: 350px;
+        height: 250px;
         width: 350px;
     }
 
@@ -126,7 +126,7 @@ i {
 @media screen and (max-width: 768px) {
 
     .minibox {
-        height: 250px;
+        height: 150px;
         width: 100%;
     }
 
